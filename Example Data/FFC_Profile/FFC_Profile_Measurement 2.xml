@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Results xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.perkinelmer.com/PEHH/HarmonyV5">
+  <Version>2</Version>
+  <ProfilesComplete>1</ProfilesComplete>
+  <AggregatedQuality Scope="Background">1</AggregatedQuality>
+  <AggregatedQuality Scope="Foreground">0</AggregatedQuality>
+  <Quality ChannelID="1" Scope="Background">1</Quality>
+  <Quality ChannelID="1" Scope="Foreground">0</Quality>
+  <Quality ChannelID="2" Scope="Background">1</Quality>
+  <Quality ChannelID="2" Scope="Foreground">1</Quality>
+  <Quality ChannelID="3" Scope="Background">1</Quality>
+  <Quality ChannelID="3" Scope="Foreground">1</Quality>
+  <Quality ChannelID="4" Scope="Background">1</Quality>
+  <Quality ChannelID="4" Scope="Foreground">0</Quality>
+  <Count ChannelID="1" Scope="Background">69</Count>
+  <Count ChannelID="1" Scope="Foreground">536</Count>
+  <Count ChannelID="2" Scope="Background">15</Count>
+  <Count ChannelID="2" Scope="Foreground">536</Count>
+  <Count ChannelID="3" Scope="Background">75</Count>
+  <Count ChannelID="3" Scope="Foreground">536</Count>
+  <Count ChannelID="4" Scope="Background">61</Count>
+  <Count ChannelID="4" Scope="Foreground">536</Count>
+  <Map>
+    <Entry ChannelID="1">
+      <FlatfieldProfile>{Background: {Character: NonFlat, Mean: 168.79856, NoiseConst: 1.7449012, NonFlatness: {Corrected: 0.043485343, Original: 0.23913908, Random: 0.037849436}, Profile: {Coefficients: [[1.0588], [0.0171, -0.0563], [-0.5147, -0.0827, -0.0148], [0.0295, -0.1066, -0.1291, -0.0786], [0.0692, -0.0611, -0.2627, 0.3852, -1.0984]], Dims: [2160, 2160], Origin: [1079.5, 1079.5], Scale: [0.00046296296, 0.00046296296], Type: Polynomial}, Quality: 1.0}, Channel: 1, ChannelName: HOECHST 33342, Version: Acapella:2013}</FlatfieldProfile>
+    </Entry>
+    <Entry ChannelID="2">
+      <FlatfieldProfile>{Background: {Character: NonFlat, Mean: 150.11627, NoiseConst: 1.526074, NonFlatness: {Corrected: 0.031656474, Original: 0.2264396, Random: 0.032956617}, Profile: {Coefficients: [[1.0702], [0.0573, -0.0537], [-0.6051, -0.0934, -0.1927], [-0.0136, -0.0076, -0.1951, -0.0518], [0.1348, 0.1906, 0.2568, 0.2476, -0.5746]], Dims: [2160, 2160], Origin: [1079.5, 1079.5], Scale: [0.00046296296, 0.00046296296], Type: Polynomial}, Quality: 1.0}, Channel: 2, ChannelName: Alexa 488, Version: Acapella:2013}</FlatfieldProfile>
+    </Entry>
+    <Entry ChannelID="3">
+      <FlatfieldProfile>{Background: {Character: NonFlat, Mean: 250.42362, NoiseConst: 2.7290338, NonFlatness: {Corrected: 0.034246624, Original: 0.315503, Random: 0.030284087}, Profile: {Coefficients: [[1.0906], [0.017, -0.0873], [-0.6195, -0.0654, -0.3633], [0.0147, -0.0597, -0.0374, -0.1089], [-0.1243, -0.0812, 0.089, 0.3529, -0.6229]], Dims: [2160, 2160], Origin: [1079.5, 1079.5], Scale: [0.00046296296, 0.00046296296], Type: Polynomial}, Quality: 1.0}, Channel: 3, ChannelName: Alexa 546, Version: Acapella:2013}</FlatfieldProfile>
+    </Entry>
+    <Entry ChannelID="4">
+      <FlatfieldProfile>{Background: {Character: NonFlat, Mean: 187.17583, NoiseConst: 5.4883531, NonFlatness: {Corrected: 0.032811403, Original: 0.2652427, Random: 0.035270827}, Profile: {Coefficients: [[1.093], [0.0383, 0.0591], [-0.6261, 0.0071, -0.4493], [0.0575, -0.1273, -0.0586, -0.1911], [-0.1992, -0.1053, 0.208, -0.0415, -0.1886]], Dims: [2160, 2160], Origin: [1079.5, 1079.5], Scale: [0.00046296296, 0.00046296296], Type: Polynomial}, Quality: 1.0}, Channel: 4, ChannelName: Alexa 647, Version: Acapella:2013}</FlatfieldProfile>
+    </Entry>
+  </Map>
+</Results>
